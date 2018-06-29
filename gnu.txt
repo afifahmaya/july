@@ -1,0 +1,23 @@
+reset
+
+#to save file :
+set term png
+
+#set output "Curved_withswirl.png"
+#set output "Curved_noswirl.png"
+#set output "Tornado_withswirl.png"
+set output "Tornado_noswirl.png"
+
+#figure properties :
+#set title "Plot of Max velocity with swirl"
+set title "Plot of Max velocity withot swirl"
+set xlabel "time"
+set ylabel "Max velocity"
+
+#plot "1.mag_curved.txt" w l title "Re=50000", "2.mag_curved.txt" w l title "Re=10000", "3.mag_curved.txt" w l title "Re=5000","4.mag_curved.txt" w l title "Re=1000"
+
+#plot "1.mag_curved0.txt" w l title "Re=50000", "2.mag_curved0.txt" w l title "Re=10000", "3.mag_curved0.txt" w l title "Re=5000","4.mag_curved0.txt" w l title "Re=1000"
+
+#plot "1.mag_tornado.txt" w l title "Re=50000", "2.mag_tornado.txt" w l title "Re=10000", "3.mag_tornado.txt" w l title "Re=5000","4.mag_tornado.txt" w l title "Re=1000"
+
+plot "1.mag_tornadoo.txt" w l title "Re=50000", "2.mag_tornadoo.txt" w l title "Re=10000", "3.mag_tornadoo.txt" w l title "Re=5000","4.mag_tornadoo.txt" w l title "Re=1000"
